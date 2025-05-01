@@ -1,0 +1,9 @@
+*/node_modules/
+dist/
+build/
+coverage/
+.env
+*.log
+*/.genkit/
+.idea
+node_modules/
