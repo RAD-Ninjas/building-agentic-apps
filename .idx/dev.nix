@@ -38,7 +38,7 @@
             -Ptrack-widget-creation=true \
             -Ptree-shake-icons=false \
             -Pfilesystem-scheme=org-dartlang-root \
-            assembleDebug
+             assembleDebug
 
           # TODO: Execute web build in debug mode.
           # flutter run does this transparently either way
