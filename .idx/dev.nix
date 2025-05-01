@@ -25,7 +25,13 @@
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
         build-flutter = ''
-          cd genkit_flutter_agentic_app/flutter_frontend
+          cd genkit_flutter_agentic_app/genkit_backend
+
+          npm install
+
+          cd ../flutter_frontend
+
+          flutter pub get
 
           ./android/gradlew \
             --parallel \
