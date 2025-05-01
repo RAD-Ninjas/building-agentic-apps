@@ -12,7 +12,6 @@ async function getWeather(lat, lon, days) {
     }
 
     const url = `http://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=${days}&units=imperial&appid=${OPEN_WEATHER_API_KEY}`;
-    console.log(url)
 
     try {
         const response = await fetch(url);
