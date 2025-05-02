@@ -53,13 +53,13 @@
         '';
       };
 
-      onStart = {
-        start-genkit = ''
-          cd genkit_flutter_agentic_app/genkit_backend
+      # onStart = {
+      #   start-genkit = ''
+      #     cd genkit_flutter_agentic_app/genkit_backend
 
-          npx genkit start -o -- node src/app.js
-        '';
-      };
+      #     npx genkit start -o -- node src/app.js
+      #   '';
+      # };
       
       # To run something each time the workspace is (re)started, use the `onStart` hook
     };
