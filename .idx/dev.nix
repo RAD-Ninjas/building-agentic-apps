@@ -24,7 +24,7 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
-        build-flutter = ''
+        install-dependencies = ''
           cd genkit_flutter_agentic_app/genkit_backend
 
           npm install
